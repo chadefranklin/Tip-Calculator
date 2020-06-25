@@ -4,7 +4,7 @@
 
 Submitted by: **Chad Franklin**
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -14,7 +14,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -22,13 +22,17 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] DARK MODE!!!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Base Functionality:
+<img src='http://g.recordit.co/RqtYH4G9NS.gif' title='Base Functionality' width='' alt='Base Functionality' />
+
+Dark Mode & Persistent Settings:
+<img src='http://g.recordit.co/QTKzqskNRj.gif' title='Dark Mode & Persistent Settings' width='' alt='Dark Mode & Persistent Settings' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
