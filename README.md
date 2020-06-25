@@ -38,7 +38,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Trying to find out if it is possible to change the color of multiple labels with one line of code. For example, change al labels to white when dark mode has been enagled. The alternative would be to change each label color which is not ideal.
+
 
 ## Credits
 
