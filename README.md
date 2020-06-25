@@ -28,7 +28,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/RqtYH4G9NS.gif' title='Base Functionality' width='' alt='Base Functionality' />
+
+<img src='http://g.recordit.co/QTKzqskNRj.gif' title='Dark Mode & Persistent Settings' width='' alt='Dark Mode & Persistent Settings' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
