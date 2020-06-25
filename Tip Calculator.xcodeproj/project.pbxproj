@@ -16,6 +16,7 @@
 		B4EB15E624A345E900B61DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB15E524A345E900B61DE2 /* main.m */; };
 		B4EB15F024A345E900B61DE2 /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB15EF24A345E900B61DE2 /* Tip_CalculatorTests.m */; };
 		B4EB15FB24A345E900B61DE2 /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB15FA24A345E900B61DE2 /* Tip_CalculatorUITests.m */; };
+		B4EB160A24A3F6C100B61DE2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB160924A3F6C100B61DE2 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B4EB15F624A345E900B61DE2 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4EB15FA24A345E900B61DE2 /* Tip_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorUITests.m; sourceTree = "<group>"; };
 		B4EB15FC24A345E900B61DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4EB160824A3F6C100B61DE2 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B4EB160924A3F6C100B61DE2 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B4EB15E124A345E900B61DE2 /* LaunchScreen.storyboard */,
 				B4EB15E424A345E900B61DE2 /* Info.plist */,
 				B4EB15E524A345E900B61DE2 /* main.m */,
+				B4EB160824A3F6C100B61DE2 /* SettingsViewController.h */,
+				B4EB160924A3F6C100B61DE2 /* SettingsViewController.m */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			files = (
 				B4EB15DB24A345DE00B61DE2 /* ViewController.m in Sources */,
 				B4EB15D524A345DD00B61DE2 /* AppDelegate.m in Sources */,
+				B4EB160A24A3F6C100B61DE2 /* SettingsViewController.m in Sources */,
 				B4EB15E624A345E900B61DE2 /* main.m in Sources */,
 				B4EB15D824A345DE00B61DE2 /* SceneDelegate.m in Sources */,
 			);

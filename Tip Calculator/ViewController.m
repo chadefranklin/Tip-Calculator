@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIView *mainView;
+
+
 @property (weak, nonatomic) IBOutlet UITextField *billField;
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
@@ -21,6 +24,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"main view did load");
+    
+    NSInteger defaultTipIndex = [self getDefaultTipUserDefault];
+    
+    self.tipControl.selectedSegmentIndex = defaultTipIndex;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSLog(@"main view will appear");
+    
+    BOOL darkModeOn = [self getDarkModeUserDefault];
+    
+    [self darkModeUIUpdate:darkModeOn];
+    
+    
 }
 
 - (IBAction)onTap:(id)sender {
@@ -29,10 +49,6 @@
 }
 
 - (IBAction)onEdit:(id)sender {
-    [self calculateAndDisplayTip];
-}
-
-- (IBAction)onTipControlChanged:(id)sender {
     [self calculateAndDisplayTip];
 }
 
@@ -48,6 +64,37 @@
     
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
+}
+
+
+
+
+
+
+
+
+- (void)darkModeUIUpdate:(BOOL)on{
+    if(on){
+        self.mainView.backgroundColor = UIColor.darkGrayColor;
+    } else {
+        self.mainView.backgroundColor = UIColor.systemBackgroundColor;
+    }
+}
+
+- (bool)getDarkModeUserDefault{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL darkModeOn = [defaults boolForKey:@"default_dark_mode"];
+    
+    return darkModeOn;
+}
+
+
+
+- (NSInteger)getDefaultTipUserDefault{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger tipIndex = [defaults integerForKey:@"default_tip_index"];
+    
+    return tipIndex;
 }
 
 @end
