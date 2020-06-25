@@ -34,7 +34,7 @@ Base Functionality:
 Dark Mode & Persistent Settings:
 <img src='http://g.recordit.co/QTKzqskNRj.gif' title='Dark Mode & Persistent Settings' width='' alt='Dark Mode & Persistent Settings' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](https://recordit.co).
 
 ## Notes
 
